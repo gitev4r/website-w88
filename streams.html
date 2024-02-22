@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>W88</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/w88-web.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/w88.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Search End ***** -->
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
+                    </div>
+                    <!-- ***** Search End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Ranking</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+
+
+
+
+
+          <!-- ***** RTP Start ***** -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <div class="under-info">
+            <div class="under">
+              <h4>Pragmatic Play</h4><br>
+              
+            </div>
+          </div>
+
+          
+             <div class="table">
+            
+  
+              <div style="overflow-x:auto;">
+              <div class="scroll-container" >
+              <table class="table table-striped">
+                <thead>
+                  <tr class="bg-info">
+                   <th data-column="name" data-order="desc">Name &#9650</th>
+                    <th data-column="RTP" data-order="desc">RTP % &#9650</th>
+                  </tr>
+                </thead>
+              <tbody id="myTable">
+          
+              </tbody>
+             </table>
+          
+              <script>
+           
+              var myArray = [
+                  {'name':'Dwarven Gold Deluxe', 'RTP':'96.18'},
+                  {'name':'Lady Godiva', 'RTP':'96.54'},
+                  {'name':'Mighty Kong', 'RTP':'96.64'},
+                  {'name':'7 Monkeys', 'RTP':'92.71'},
+                  {'name':'Great Reef', 'RTP':'96.64'},
+                  {'name':'Lucky Dragons', 'RTP':'95.19'},
+                  {'name':'The Journey West', 'RTP':'96.47'},
+                  {'name':'3 Genie Wishes', 'RTP':'96.53'},
+                  {'name':'888 Gold', 'RTP':'97.52'},
+                  {'name':'3 Kingdoms - Battle of Red Cliffs', 'RTP':'96.5'},
+                  {'name':'8 Dragons', 'RTP':'96.37'},
+                  {'name':'Gold Train', 'RTP':'97.16'},
+                  {'name':'Wolf Gold', 'RTP':'96.01'},
+                  {'name':'Hercules Son of Zeus', 'RTP':'94'},
+                  {'name':'Dragon Kingdom', 'RTP':'94.04'},
+                  {'name':'Pixie Wings', 'RTP':'96.37'},
+                  {'name':'Caishen’s Gold', 'RTP':'97.08'},
+                  {'name':'Wild Spells', 'RTP':'96.4'},
+                  {'name':'Diamond Strike', 'RTP':'97.02'},
+                  {'name':'Vegas Nights', 'RTP':'96.03'},
+                  {'name':'7 Piggies', 'RTP':'97'},
+                  {'name':'Busy Bees', 'RTP':'0'},
+                  {'name':'Devil\'s 13', 'RTP':'0'},
+                  {'name':'Panda Fortune', 'RTP':'96.17'},
+                  {'name':'Santa', 'RTP':'95.92'},
+                  {'name':'Gold Rush', 'RTP':'96.5'},
+                  {'name':'888 Dragons', 'RTP':'96.84'},
+                  {'name':'Monkey Madness', 'RTP':'96.53'},
+                  {'name':'Money Roll', 'RTP':'96.93'},
+                  {'name':'Diamonds are Forever 3 Lines', 'RTP':'96.96'},
+                  {'name':'Triple Tigers', 'RTP':'96.52'},
+                  {'name':'Lucky New Year', 'RTP':'96'},
+                  {'name':'Ancient Egypt', 'RTP':'96.13'},
+                  {'name':'Aztec Gems', 'RTP':'96.52'},
+                  {'name':'Chilli Heat', 'RTP':'96.5'},
+                  {'name':'Fire88', 'RTP':'95.46'},
+                  {'name':'Fairytale Fortune', 'RTP':'96.04'},
+                  {'name':'Joker\'s Jewel', 'RTP':'96.5'},
+                  
+                  {'name':'Great Rhino', 'RTP':'96.53'},
+                  {'name':'Irish Charms', 'RTP':'96.96'},
+                  {'name':'Five Lions', 'RTP':'96.5'},
+                  {'name':'Asgard', 'RTP':'96.48'},
+                  {'name':'Madame Destiny', 'RTP':'96.5'},
+                  {'name':'Jade Butterfly', 'RTP':'96.47'},
+                  {'name':'Leprechaun Song', 'RTP':'96.46'},
+                  {'name':'Peking Luck', 'RTP':'96.5'},
+                  {'name':'Da Vinci\'s Treasure', 'RTP':'96.53'},
+                  {'name':'Vegas Magic', 'RTP':'96.48'},
+                  {'name':'Master Chen\'s Fortune', 'RTP':'96.08'},
+                  {'name':'Ancient Egypt Classic', 'RTP':'96.47'},
+                  {'name':'Triple Dragons', 'RTP':'96.51'},
+                  {'name':'Mustang Gold', 'RTP':'96.53'},
+                  {'name':'Leprechaun Carol', 'RTP':'96.53'},
+                  {'name':'Safari King', 'RTP':'96.49'},
+                  {'name':'Treasure Horse', 'RTP':'96.52'},
+                  {'name':'Golden Pig', 'RTP':'96'},
+                  {'name':'Wild Gladiators', 'RTP':'96.17'},
+                  {'name':'Extra Juicy', 'RTP':'96.52'},
+                  {'name':'Egyptian Fortunes', 'RTP':'96.5'},
+                  {'name':'Pirate Gold', 'RTP':'96.5'},
+                  {'name':'The Dog House', 'RTP':'96.51'},
+                  {'name':'Caishen Cash', 'RTP':'96.5'},
+                  {'name':'Sweet Bonanza', 'RTP':'96.5'},
+
+
+                ];
+              
+
+              
+          
+              $('th').on('click', function(){
+                  var column = $(this).data('column')
+                  var order = $(this).data('order')
+                  var text = $(this).html()
+                  text = text.substring(0, text.length - 1)
+          
+                  if(order == 'desc'){
+                      $(this).data('order', "asc")
+                      myArray = myArray.sort((a, b) => (a[column] > b[column]) ? -1 : 1)
+                      text += '&#9660'
+                  } else {
+                      $(this).data('order', "desc")
+                      myArray = myArray.sort((a, b) => (a[column] < b[column]) ? -1 : 1)
+                      text += '&#9650'
+                  }
+          
+                  $(this).html(text)
+                  buildTable(myArray)
+               })
+          
+               buildTable(myArray)
+          
+               function buildTable(data){
+                  var table = document.getElementById('myTable')
+                  table.innerHTML = ''
+                  for (var i = 0; i < data.length; i++){
+                      var row = `<tr>
+                              <td>${data[i].name}</td>
+                              <td>${data[i].RTP}</td>
+                            </tr>`
+                      table.innerHTML += row
+                  }
+               }
+
+                window.addEventListener('scroll', () => {
+                const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+                const scrolled = window.scrollY;
+
+                if(math.ceil(scrolled) === scrollable) {
+                  alert('You have reached the bottom');
+                }
+
+
+                  })
+
+
+
+
+
+                 </script>
+              
+              </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+          
+          <!-- *****  End ***** -->
+
+        
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+  </body>
+
+</html>
